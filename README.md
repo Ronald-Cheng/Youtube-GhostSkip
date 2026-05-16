@@ -65,7 +65,6 @@ Safari requires developer permissions to run local, unsigned extensions. You mus
 ## 🛠 Project Structure
 
 * **Youtube AdSkip App.zip**: The ready-to-run precompiled macOS application housing the Safari extension.
-* **content.js**: The underlying JavaScript core that contains the "GhostSkip" DOM logic and speed alterations.
 
 ---
 
