@@ -12,6 +12,40 @@ A fun, ambient Safari extension designed to automate the YouTube advertisement e
 
 ---
 
+## 🚀 How to Install & Set Up
+
+Follow these steps to get the extension running on your Mac without needing to touch any code.
+
+### Step 1: Download and Install the App
+
+1. Click on the **Youtube AdSkip App.zip** file here on GitHub and download it.
+2. Unzip the file on your Mac.
+3. Drag the unzipped **Youtube AdSkip** app icon into your Mac's **Applications** folder.
+
+### Step 2: Handle the macOS Security Bypass
+Because this app is not distributed through the official App Store, macOS will show a `"Youtube AdSkip" Not Opened` verification warning when you try to open it. 
+
+To bypass this safely:
+1. Click the **Apple Menu** () in the top-left corner of your screen and open **System Settings**.
+2. Navigate to **Privacy & Security**.
+3. Scroll down to the *Security* section.
+4. You will see a notice saying `"Youtube AdSkip" was blocked from use...`. Click the **Open Anyway** button next to it.
+5. Enter your Mac password to confirm, then click **Open** on the final pop-up.
+
+---
+
+### Step 3: Configure Safari to Run the Extension
+
+Safari requires developer permissions to run local, unsigned extensions. You must turn this option on:
+
+1. Open **Safari**.
+2. Go to the menu bar and choose **Safari > Settings** (or Preferences) > **Advanced**.
+3. Check the box at the very bottom: **"Show features for web developers"** (or "Show Develop menu in menu bar").
+4. Look at your Safari menu bar at the top of the screen, click on the new **Develop** menu, and select **Allow Unsigned Extensions**. *(Note: You will need to click this option once every time you fully restart Safari for security reasons).*
+5. Finally, go to **Safari > Settings > Extensions** and check the box next to **YouTube AdSkip** to turn it on!
+
+---
+
 ## ✨ Key Features
 
 * **Automatic Detection:** Identifies ads in any mode (Theater, Fullscreen, Default).
@@ -28,36 +62,10 @@ A fun, ambient Safari extension designed to automate the YouTube advertisement e
 
 ---
 
-## 🚀 How to Install (Safari)
-
-Since this is a Safari Web Extension, follow these steps to use it on your Mac:
-
-### 1. Enable Developer Menu in Safari
-
-1.  Open **Safari**.
-2.  Go to **Settings** (or Preferences) > **Advanced**.
-3.  Check the box: **"Show features for web developers"** (or "Show Develop menu in menu bar").
-
-### 2. Allow Unsigned Extensions
-
-1.  In the Safari menu bar, click on **Develop**.
-2.  Click **Allow Unsigned Extensions**. *(Note: You will need to do this every time you restart Safari for security reasons).*
-
-### 3. Load the Extension
-
-1.  Clone this repository or download the ZIP file and unzip it.
-2.  Open the project folder and launch the **.xcodeproj** file in **Xcode**.
-3.  Select the **YouTube AdSkip** scheme and click the **Play** button (Run).
-4.  Once the host app opens, go back to **Safari > Settings > Extensions**.
-5.  Check the box next to **YouTube AdSkip** to enable it.
-
----
-
 ## 🛠 Project Structure
 
-* **.appex**: The Safari Extension bundle.
-* **.swiftmodule**: Compiled Swift code for the macOS host app.
-* **content.js**: The "GhostSkip" logic that handles the video manipulation and speed control.
+* **Youtube AdSkip App.zip**: The ready-to-run precompiled macOS application housing the Safari extension.
+* **content.js**: The underlying JavaScript core that contains the "GhostSkip" DOM logic and speed alterations.
 
 ---
 
