@@ -64,7 +64,7 @@ Safari requires developer permissions to run local, unsigned extensions. You mus
 
 ## 🛠 Project Structure
 
-* **Youtube AdSkip App.zip**: The ready-to-run precompiled macOS application housing the Safari extension.
+* **Youtube AdSkip.zip**: The ready-to-run precompiled macOS application housing the Safari extension.
 
 ---
 
